@@ -31,26 +31,35 @@ JKinco-MESBench 1.5 is the first 10,000-level multi-task LLM evaluation benchmar
 
 ## Changelog
 
-### 2026-04-13: Evaluation Set v1.5 Released
-1. 369 new questions were added, all from the Professional Technology module.
-2. The scoring rubric for Q&A questions was refined (the scoring points were split into finer-grained items), which led to a generally lower score for evaluated models.
-3. The concurrency mechanisms for both candidate models and judge models were optimized, the testing speed has increased by 6 times.
-4. A Heavy-Think evaluation mode was added.
-5. Evaluation results for the latest models were added.
-6. The project name was changed to “JKinco Zhuyan · Engineering Supervision LLM Evaluation Set”.
+### October 31, 2026: JKinco-MESBench-V Released
+
+- First release extending the evaluation set from text-only to image and video modalities
+- Scale: 2,000 questions across 6 first-level categories
+
+**Multimodal benchmark repositories**: [GitHub](https://github.com/JKincoAILab/JKinco-MESBench-V) · [HuggingFace](https://huggingface.co/datasets/JKincoAILab/JKinco-MESBench-V) · [ModelScope](https://www.modelscope.cn/datasets/JKincoAILab/JKinco-MESBench-V)
+
+### April 13, 2026: Benchmark v1.5 Released
+
+- Question count updated to 369, all drawn from professional technical modules
+- Refined the scoring ratio of Q&A questions (finer-grained scoring points), resulting in varying score declines across evaluated models
+- Optimized the concurrency mechanism for evaluated and judge models, improving evaluation speed by 6×
+- Added a deep-thinking evaluation mode
+- Updated evaluations for some of the latest models
+- Renamed to "JKinco Zhuyan · Construction Supervision LLM Benchmark"
+
+### January 18, 2026: JKinco-MESBench Released · First LLM Benchmark for the Construction Supervision Industry
+
+- The first 10,000-question-level multi-task LLM benchmark for China's construction supervision industry, focused on the building construction sector
+- 10,144 questions spanning three major categories: professional technical, general comprehensive, and featured scenarios
+- Covers four question types: single-choice, multiple-choice, true/false, and Q&A
+- Adopts an original "multi-level hybrid scoring mechanism" to comprehensively measure LLM capabilities in the supervision domain
+- Fills the gap in LLM evaluation benchmarks for the construction supervision industry
 
 <p align="center">
   <img src="assets/leaderboard_large.png" alt="Large-Parameter Model Leaderboard" width="90%" />
   <br>
   <img src="assets/leaderboard_medium.png" alt="Medium-Parameter Model Leaderboard" width="90%" />
 </p>
-
-### October 31, 2026: Multimodal Benchmark JKinco-MESBench-V Released
-
-- Extended the evaluation set from text-only to images and videos, with 2,000 questions across 6 first-level categories
-- The two benchmarks share the same lineage and are complementary: this text benchmark focuses on supervision knowledge and textual reasoning, while the multimodal benchmark focuses on on-site image/video judgement
-
-**Multimodal benchmark repositories**: [GitHub](https://github.com/JKincoAILab/JKinco-MESBench-V) · [HuggingFace](https://huggingface.co/datasets/JKincoAILab/JKinco-MESBench-V) · [ModelScope](https://www.modelscope.cn/datasets/JKincoAILab/JKinco-MESBench-V)
 
 ## Overall Framework
 To comprehensively evaluate the professional capabilities of Large Language Models in the field of engineering supervision, MESBench has constructed a multi-dimensional evaluation structure containing 3 major sections and multiple levels, and further refined the granularity of evaluation based on the depth and breadth of supervision work.

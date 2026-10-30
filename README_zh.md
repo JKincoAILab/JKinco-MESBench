@@ -31,26 +31,35 @@ JKinco-MESBench 是首个面向中国建设工程监理行业的万题级大语�
 
 ## 更新日志
 
-### 2026年4月13日：测评集1.5版本发布
-1. 本次更新的题目数量为 369，全部出自专业技术模块。
-2. 优化了问答题的得分比例（得分点拆得更细），因此被测模型的得分存在不同程度的下滑。
-3. 优化了评测模型和裁判模型的并发机制，测评速度提升了6倍。
-4. 新增重度思考模式的测评方式。
-5. 更新了部分最新模型的评测。
-6. 名称更改为“JKinco 筑衍 · 工程监理大模型测评集”。
+### 2026年10月31日：JKinco-MESBench-V 发布
+
+- 首次将测评集从纯文本扩展至图片与视频模态
+- 题目规模：2000 题，覆盖 6 个一级分类
+
+**多模态测评集开源地址**：[GitHub](https://github.com/JKincoAILab/JKinco-MESBench-V) · [HuggingFace](https://huggingface.co/datasets/JKincoAILab/JKinco-MESBench-V) · [魔搭 ModelScope](https://www.modelscope.cn/datasets/JKincoAILab/JKinco-MESBench-V)
+
+### 2026年4月13日：测评集 1.5 版本发布
+
+- 本次更新的题目数量为 369，全部出自专业技术模块
+- 优化了问答题的得分比例（得分点拆得更细），因此被测模型的得分存在不同程度的下滑
+- 优化了评测模型和裁判模型的并发机制，测评速度提升了 6 倍
+- 新增重度思考模式的测评方式
+- 更新了部分最新模型的评测
+- 名称更改为「JKinco 筑衍 · 工程监理大模型测评集」
+
+### 2026年1月18日：JKinco-MESBench 发布 · 工程监理行业首个大模型测评集发布
+
+- 首个面向中国建设工程监理行业的万题级大语言模型多任务测评基准，聚焦房屋建设领域
+- 包含 10,144 道题目，覆盖专业技术、通用综合及特色场景三大分类
+- 涵盖单选、多选、判断及问答四种题型
+- 采用独创的「多层级混合评分机制」，立体度量大模型在监理垂直领域的专业能力
+- 填补了监理行业大模型测评基准的空白
 
 <p align="center">
   <img src="assets/leaderboard_large.png" alt="大参数模型榜单" width="90%" />
   <br>
   <img src="assets/leaderboard_medium.png" alt="中等参数模型榜单" width="90%" />
 </p>
-
-### 2026年10月31日：多模态测评集 JKinco-MESBench-V 发布
-
-- 首次将测评集从纯文本扩展至图片与视频模态，共 2000 题、覆盖 6 个一级分类
-- 多模态测评集与本测评集同源互补：本集聚焦监理知识体系与文本推理，多模态集聚焦现场图像与视频作业判断
-
-**多模态测评集开源地址**：[GitHub](https://github.com/JKincoAILab/JKinco-MESBench-V) · [HuggingFace](https://huggingface.co/datasets/JKincoAILab/JKinco-MESBench-V) · [魔搭 ModelScope](https://www.modelscope.cn/datasets/JKincoAILab/JKinco-MESBench-V)
 
 ## 总体框架
 为了全面衡量大语言模型在工程监理领域的专业能力，MESBench构建了包含3大板块、多个层级的立体测评结构，并依据监理工作的深度与广度将测评的颗粒度进一步细化。
