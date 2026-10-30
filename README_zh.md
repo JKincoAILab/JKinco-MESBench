@@ -5,17 +5,9 @@
 
 # JKinco 筑衍 · 工程监理大模型测评集1.5
 
-<p align="center">
-  <a href="https://github.com/JKincoAILab/JKinco-MESBench">
-    <img src="https://img.shields.io/badge/GitHub-JKinco_MESBench-black?logo=github" alt="GitHub">
-  </a>
-  <a href="https://huggingface.co/datasets/JKincoAILab/JKinco-MESBench">
-    <img src="https://img.shields.io/badge/HuggingFace-JKinco_MESBench-yellow?logo=huggingface" alt="HuggingFace">
-  </a>
-  <a href="https://www.modelscope.cn/datasets/JKincoAILab/JKinco-MESBench">
-    <img src="https://img.shields.io/badge/ModelScope-JKinco_MESBench_1.5-blue" alt="ModelScope">
-  </a>
-</p>
+[![GitHub](assets/badge_github.svg)](https://github.com/JKincoAILab/JKinco-MESBench)
+[![HuggingFace](assets/badge_huggingface.svg)](https://huggingface.co/datasets/JKincoAILab/JKinco-MESBench)
+[![ModelScope](assets/badge_modelscope.svg)](https://www.modelscope.cn/datasets/JKincoAILab/JKinco-MESBench)
 
 
 ## 目录

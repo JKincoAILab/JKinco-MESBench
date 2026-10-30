@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="28" viewBox="0 0 132 28" role="img" aria-label="HuggingFace">
+  <rect width="132" height="28" rx="6" fill="#ffd21e"/>
+  <circle cx="18" cy="14" r="6" fill="#1f2328"/>
+  <text x="76" y="18.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328" text-anchor="middle">HuggingFace</text>
+</svg>
