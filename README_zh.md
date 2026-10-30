@@ -53,6 +53,13 @@ JKinco-MESBench 是首个面向中国建设工程监理行业的万题级大语�
   <img src="assets/leaderboard_medium.png" alt="中等参数模型榜单" width="90%" />
 </p>
 
+### 2026年10月31日：多模态测评集 JKinco-MESBench-V 发布
+
+- 首次将测评集从纯文本扩展至图片与视频模态，共 2000 题、覆盖 6 个一级分类
+- 多模态测评集与本测评集同源互补：本集聚焦监理知识体系与文本推理，多模态集聚焦现场图像与视频作业判断
+
+**多模态测评集开源地址**：[GitHub](https://github.com/JKincoAILab/JKinco-MESBench-V) · [HuggingFace](https://huggingface.co/datasets/JKincoAILab/JKinco-MESBench-V) · [魔搭 ModelScope](https://www.modelscope.cn/datasets/JKincoAILab/JKinco-MESBench-V)
+
 ## 总体框架
 为了全面衡量大语言模型在工程监理领域的专业能力，MESBench构建了包含3大板块、多个层级的立体测评结构，并依据监理工作的深度与广度将测评的颗粒度进一步细化。
 

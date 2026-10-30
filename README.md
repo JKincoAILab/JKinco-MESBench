@@ -53,6 +53,13 @@ JKinco-MESBench 1.5 is the first 10,000-level multi-task LLM evaluation benchmar
   <img src="assets/leaderboard_medium.png" alt="Medium-Parameter Model Leaderboard" width="90%" />
 </p>
 
+### October 31, 2026: Multimodal Benchmark JKinco-MESBench-V Released
+
+- Extended the evaluation set from text-only to images and videos, with 2,000 questions across 6 first-level categories
+- The two benchmarks share the same lineage and are complementary: this text benchmark focuses on supervision knowledge and textual reasoning, while the multimodal benchmark focuses on on-site image/video judgement
+
+**Multimodal benchmark repositories**: [GitHub](https://github.com/JKincoAILab/JKinco-MESBench-V) · [HuggingFace](https://huggingface.co/datasets/JKincoAILab/JKinco-MESBench-V) · [ModelScope](https://www.modelscope.cn/datasets/JKincoAILab/JKinco-MESBench-V)
+
 ## Overall Framework
 To comprehensively evaluate the professional capabilities of Large Language Models in the field of engineering supervision, MESBench has constructed a multi-dimensional evaluation structure containing 3 major sections and multiple levels, and further refined the granularity of evaluation based on the depth and breadth of supervision work.
 
